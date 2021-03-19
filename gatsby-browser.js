@@ -11,3 +11,4 @@ const wrapPageElement = ({ element, props }) => (
 const wrapRootElement = ({ element }) => <MDXProvider>{element}</MDXProvider>
 
 export { wrapPageElement, wrapRootElement }
+
